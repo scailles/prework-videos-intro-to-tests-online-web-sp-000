@@ -78,3 +78,7 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+
+ruby describe "conversions" do describe '#ounces_to_grams' do it 'given zero, returns 0.0' end end
+
